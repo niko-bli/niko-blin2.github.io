@@ -1,0 +1,29 @@
+/* Graffiti color palette */
+:root {
+    --black: #000;
+    --white: #fff; 
+    --red: #c62d1f;
+    --yellow: #ffc40c;
+    --green: #3cb878;
+  }
+  
+  /* Handwritten font */ 
+  h1, h2 {
+    font-family: 'Spray-Paint', cursive; 
+  }
+  
+  /* Textured gradients */
+  header {
+    background: linear-gradient(var(--black), var(--red)); 
+  }
+  
+  /* Artwork overlays */
+  .artwork img {
+    filter: brightness(90%) contrast(110%);
+  }
+  
+  /* Brick wall effect */ 
+  main {
+    background: url(brick-wall.jpg);
+  }
+  
